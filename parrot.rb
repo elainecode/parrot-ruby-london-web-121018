@@ -1,6 +1,6 @@
 # Create method `parrot` that outputs a given phrase and
 # returns the phrase
- def parrot(str)
+ def parrot(str = "parr")
    puts str
    return str
 end
